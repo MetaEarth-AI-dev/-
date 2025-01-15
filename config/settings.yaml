@@ -1,0 +1,17 @@
+# settings.yaml
+project_name: MetaEarth AI
+environment: development
+
+# Token settings
+token:
+  name: MetaEarthToken
+  symbol: METAERTH
+  initial_supply: 10000000000 # 10 billion tokens
+
+# Staking settings
+staking:
+  reward_rate: 0.1 # Reward rate per second per staked token
+
+# DAO settings
+dao:
+  voting_period_seconds: 3600 # 1 hour voting period
