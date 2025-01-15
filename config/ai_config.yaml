@@ -1,0 +1,10 @@
+# ai_config.yaml
+tracking_agent:
+  max_actions_per_day: 100 # Limit the number of actions tracked per day per user
+
+reward_agent:
+  token_rate: 1.5 # Token rewards per unit of verified action
+
+challenge_agent:
+  default_challenge_duration_days: 30 # Default duration for new challenges
+  max_participants_per_challenge: 10000
