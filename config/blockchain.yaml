@@ -1,0 +1,9 @@
+# blockchain.yaml
+network:
+  provider_url: http://localhost:8545 # Local blockchain network URL
+  chain_id: 1337 # Local development chain ID
+
+contracts:
+  token_contract: "0xYourTokenContractAddress"
+  staking_contract: "0xYourStakingContractAddress"
+  dao_contract: "0xYourDAOContractAddress"
